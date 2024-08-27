@@ -953,13 +953,18 @@ main {
 
 .project-item > a { width: 100%; }
 
+
+
 .project-img {
   position: relative;
   width: 100%;
-  height: 200px;
   border-radius: 16px;
   overflow: hidden;
+  max-height: 200px;
   margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-img::before {
