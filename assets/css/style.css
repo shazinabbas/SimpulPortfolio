@@ -972,6 +972,8 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #000; /* Optional: to handle cases where images might not load */
+  margin-bottom: 20px;
+  margin-top: 50%;
 }
 
 .project-img img {
@@ -979,7 +981,6 @@ main {
   height: 100%;
   object-fit: cover; /* Ensures the image covers the entire container */
   transition: var(--transition-1);
-
 }
 
 .project-img::before {
