@@ -973,7 +973,7 @@ main {
   align-items: center;
   background-color: #000; /* Optional: to handle cases where images might not load */
   margin-bottom: 20px;
-  margin-top: 50%;
+  margin-top: 5%;
 }
 
 .project-img img {
